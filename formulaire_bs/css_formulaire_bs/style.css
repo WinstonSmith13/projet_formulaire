@@ -1,0 +1,56 @@
+body {
+  font-family: 'Open Sans ', sans-serif;
+  color: black;
+  margin: 20px;
+}
+
+.row img {
+  width: 200px;
+}
+
+.container {
+  max-width: 1240px;
+  height: 600px;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 1rem;
+  border-radius: 3px;
+  border: 1px solid rgba(128, 128, 128, 0.55);
+  font-size: 12px;
+
+}
+
+#message {
+  height: 150px;
+}
+
+::placeholder {
+  color: rgb(160, 160, 160);
+}
+
+span {
+  color: rgb(174, 11, 11);
+}
+
+.btn {
+  color: white;
+  background-color: grey;
+  cursor: pointer;
+  width: 110px;
+
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.row {
+  margin: 20px;
+}
+
+h1{
+  font-family:'Roboto Condensed', sans-serif;
+}

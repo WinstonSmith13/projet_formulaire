@@ -1,0 +1,30 @@
+
+body {
+  background-image: linear-gradient(to right, black 0%, #434343 100%);
+  font-family: 'Open Sans ', sans-serif;
+  color: white;
+}
+
+.container{
+  max-width: 1240px;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.row img {
+  width: 200px;
+}
+
+.card{
+  margin-top: 20px;
+}
+
+.list_name{
+  color: rgb(17, 126, 163);
+  text-align: center;
+}
+
+h1{
+  font-family:'Roboto Condensed', sans-serif;
+}
+

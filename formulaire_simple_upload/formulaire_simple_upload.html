@@ -1,0 +1,39 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css_formulaire_simple/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" action="post.php" enctype="multipart/form-data">
+            <a href="../index.html">
+                <img src="imgs/simplon_white.svg" alt="logo simplon blanc">
+            </a>
+            <h1>Formulaire simple</h1>
+            <div>
+                <label for="prenom">Votre prénom (<span>*</span>)</label><br>
+                <input name="prenom" type="text" id="prenom" placeholder="Veuillez saisir votre prénom ici..."><br>
+                <label for="nom">Votre nom (<span>*</span>)</label><br>
+                <input name="nom" type="text" id="nom" placeholder="Veuillez saisir votre nom ici..."><br>
+                <label for="courriel">Votre courriel (<span>*</span>)</label><br>
+                <input name="courriel" type="text" id="courriel"
+                    placeholder="Veuillez saisir votre courriel ici..."><br>
+                <label for="message">Votre message (<span>*</span>)</label><br>
+                <input name="message" type="text" id="message" placeholder="Veuillez saisir votre message ici..."><br>
+                <label for="filename">Votre cv (<span>*</span>)</label><br>
+                <input type="file" id="filename" name="filename">
+            </div>
+            <div>
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
